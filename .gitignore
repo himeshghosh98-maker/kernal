@@ -1,0 +1,46 @@
+# Dependencies & Builds
+node_modules/
+.next/
+dist/
+build/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.venv/
+venv/
+.pytest_cache/
+coverage/
+*.coverage
+htmlcov/
+
+# Environment Variables & Secrets
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.pfx
+secrets/
+*private_key*
+*deployer_key*
+
+# Smart Contracts / Hardhat / Private Deployments
+artifacts/
+cache/
+typechain/
+typechain-types/
+deployments/private/
+contracts/deployments/private/
+
+# Operating System & IDE
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Logs
+*.log
